@@ -1,0 +1,65 @@
+.arMoviesParent{
+    margin-top: 2rem;
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    height: 80rem;
+    background-color: none;
+    justify-content: center;
+    align-items: center;
+}
+.arMovies{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 84rem;
+    background-color: #ffff;
+    
+}
+.arMoviesTitle{
+    background-color:  #9EEAE7;
+}
+h1{
+    margin-left: 2rem;
+}
+.arMoviesGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 97%;
+    height: 100%;
+}
+.enMoviesGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 97%;
+    height: 100%;
+}
+.enMoviesParent{
+    margin-top: 2rem;
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    height: 80rem;
+    background-color: none;
+    justify-content: center;
+    align-items: center;
+}
+.enMovies{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 84rem;
+    background-color: #ffff;
+    
+}
+.enMoviesTitle{
+    background-color:  #9EEAE7;
+}
